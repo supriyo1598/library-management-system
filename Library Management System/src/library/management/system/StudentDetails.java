@@ -155,7 +155,8 @@ public class StudentDetails extends JFrame implements ActionListener{
 		JDialog.setDefaultLookAndFeelDecorated(true);
 		int response = JOptionPane.showConfirmDialog(null, "Do you want to continue?", "Confirm",
 		JOptionPane.YES_NO_OPTION, JOptionPane.QUESTION_MESSAGE);
-		if (response == JOptionPane.NO_OPTION) {
+		if (response == JOptionPane.NO_OPTION) 
+                {
 
 		} else if (response == JOptionPane.YES_OPTION) {
                     int rs = st.executeUpdate();
